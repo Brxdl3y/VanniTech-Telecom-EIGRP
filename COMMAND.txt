@@ -1,0 +1,111 @@
+===============================
+VanniTech Telecom - Device Configs
+Author: BRADLEY GIOVANNI
+===============================
+
+# R1 - Workshop Department
+hostname SHOP-CORE-R1
+enable secret CCNA
+!
+interface Loopback0
+ ip address 1.1.1.1 255.255.255.255
+!
+interface Gig0/0
+ ip address 10.0.12.1 255.255.255.252
+ no shutdown
+!
+interface Gig0/1
+ ip address 10.0.13.1 255.255.255.252
+ no shutdown
+!
+router eigrp 100
+ network 1.1.1.1 0.0.0.0
+ network 10.0.12.0 0.0.0.3
+ network 10.0.13.0 0.0.0.3
+ passive-interface Loopback0
+
+
+# R2 - Finance Department
+hostname FIN-CORE-R2
+enable secret CCNA 
+!
+interface Loopback0
+ ip address 2.2.2.2 255.255.255.255
+!
+interface Gig0/0
+ ip address 10.0.12.2 255.255.255.252
+ no shutdown
+!
+interface Gig0/1
+ ip address 10.0.24.1 255.255.255.252
+ no shutdown
+!
+router eigrp 100
+ network 2.2.2.2 0.0.0.0
+ network 10.0.12.0 0.0.0.3
+ network 10.0.24.0 0.0.0.3
+ passive-interface default
+ no passive-interface Gig0/0
+ no passive-interface Gig1/0
+!
+
+# R3 - HR Department
+hostname HR-R3
+enable secret CCNA 
+!
+interface Loopback0
+ ip address 3.3.3.3 255.255.255.255
+!
+interface Gig0/1
+ ip address 10.0.34.1 255.255.255.252
+ no shutdown
+!
+interface Gig0/0
+ ip address 10.0.13.2 255.255.255.252
+ no shutdown
+!
+router eigrp 100
+ network 3.3.3.3 0.0.0.0
+ network 10.0.13.0 0.0.0.3
+ network 10.0.34.0 0.0.0.3
+!
+
+# R4 - Administration Block
+hostname ADMIN-EDGE-R4
+enable secret CCNA 
+!
+interface Loopback0
+ ip address 4.4.4.4 255.255.255.255
+!
+interface Gig0/0
+ ip address 10.0.34.2 255.255.255.252
+ no shutdown
+!
+interface Gig0/2
+ ip address 192.168.4.254 255.255.255.0
+ duplex full
+ speed 100
+ no shutdown
+!
+interface Gig0/1
+ ip address 10.0.24.2 255.255.255.252
+ no shutdown
+!
+router eigrp 100
+ network 4.4.4.4 0.0.0.0
+ network 10.0.24.0 0.0.0.3
+ network 10.0.34.0 0.0.0.3
+ passive-interface Gig0/2
+
+# SW1 - Admin Switch
+hostname SW1
+vlan 10
+ name Admin_LAN
+!
+interface fa0/1
+ switchport mode access
+ switchport access vlan 10
+ spanning-tree portfast
+!
+ip default-gateway 192.168.4.254
+banner motd ^Property of VanniTech LTD^
