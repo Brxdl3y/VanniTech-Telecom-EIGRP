@@ -10,7 +10,7 @@
 
  **Executive Summary**
 
-This lab is more than a simple Packet Tracer project – it’s **a scaled-down enterprise network design** meant to reflect **real-world production environments**. It demonstrates mastery of **EIGRP routing, advanced subnetting, routing security, switch configurations, and network scalability planning**.  
+This lab is more than a simple Packet Tracer project – it’s a scaled-down enterprise network design meant to reflect **real-world production environments**. It demonstrates mastery of **EIGRP routing, advanced subnetting, routing security, switch configurations, and network scalability planning**.  
 
 VanniTech Telecom’s topology features **departmental segmentation, redundancy-focused design, and pragmatic best practices** – all built with a passion for clean architecture and airtight configs.  
 
