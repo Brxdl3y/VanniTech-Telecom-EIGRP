@@ -1,4 +1,4 @@
-VanniTech Telecom Enterprise Network Lab  
+**VanniTech Telecom Enterprise Network Lab**  
 
 
 <p align="center">
@@ -8,7 +8,7 @@ VanniTech Telecom Enterprise Network Lab
 </p>
 
 
- Executive Summary  
+ **Executive Summary**
 
 This lab is more than a simple Packet Tracer project – it’s **a scaled-down enterprise network design** meant to reflect **real-world production environments**. It demonstrates mastery of **EIGRP routing, advanced subnetting, routing security, switch configurations, and network scalability planning**.  
 
