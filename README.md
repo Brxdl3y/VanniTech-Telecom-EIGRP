@@ -14,7 +14,7 @@ This lab is more than a simple Packet Tracer project – it’s a scaled-down en
 
 VanniTech Telecom’s topology features **departmental segmentation, redundancy-focused design, and pragmatic best practices** – all built with a passion for clean architecture and airtight configs.  
 
-💡 *My mission with this lab?* To prove that **creativity and technical depth** can coexist. Networking isn’t just a skillset, it’s a craft.
+ **My mission with this lab?** To prove that creativity and technical depth can coexist. Networking isn’t just a skillset, it’s a craft.
 
 ---
 
