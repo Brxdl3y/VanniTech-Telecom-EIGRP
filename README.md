@@ -18,7 +18,7 @@ VanniTech Telecom’s topology features **departmental segmentation, redundancy-
 
 ---
 
-Network Departments & Roles
+**Network Departments & Roles**
 
 | Department             | Router/Switch | Function                                      |
 |-----------------------|-------------|---------------------------------------------|
