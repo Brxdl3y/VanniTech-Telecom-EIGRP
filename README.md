@@ -52,7 +52,7 @@ VanniTech Telecom’s topology features **departmental segmentation, redundancy-
 
 ---
 
-## 🔑 Core Technologies  
+##  Core Technologies  
 | Feature                         | Purpose |
 |--------------------------------|---------|
 | **EIGRP Routing**               | Dynamic routing, redundancy, scalability |
@@ -78,7 +78,7 @@ VanniTech Telecom’s topology features **departmental segmentation, redundancy-
 
 ##  Future Enhancements
 
-📌 Because true network engineers never stop improving:  
+Because true network engineers never stop improving:  
 
 - IPv6 Dual-Stack Deployment  
 - Implementation of ACLs & Firewalls  
@@ -88,13 +88,13 @@ VanniTech Telecom’s topology features **departmental segmentation, redundancy-
 
 ---
 
-## 🧑‍💻 About the Author
+##  About the Author
 
 Hi, I’m **Bradley Giovanni** – a networking enthusiast on a mission to turn theory into practical, production-grade solutions. Currently pursuing **CCNA certification**, I thrive in designing and documenting clean, scalable networks while staying obsessed with every CLI detail.  
 
 > “Networking isn’t just a career path – it’s an artform. This lab reflects my hunger for mastery.”  
 
-EMAIL: giovanniibradley@gmail.com
+EMAIL: **giovanniibradley@gmail.com**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/bradley-giovanniii293)
 ---
