@@ -29,7 +29,7 @@ VanniTech Telecom’s topology features **departmental segmentation, redundancy-
 
 ---
 
-## 🧩 Topology Highlights  
+# Topology Highlights  
 
 - **Full-Mesh Interconnectivity:** Every department router communicates seamlessly with low latency.  
 - **Hierarchical Subnetting:** `/30` links for WAN efficiency and `/24` for internal LAN scalability.  
@@ -40,7 +40,7 @@ VanniTech Telecom’s topology features **departmental segmentation, redundancy-
 
 ---
 
-## 📜 IP Addressing Plan
+## IP Addressing Plan
 
 | Link/Segment            | Subnet         | Devices          |
 |------------------------|---------------|-----------------|
@@ -65,7 +65,7 @@ VanniTech Telecom’s topology features **departmental segmentation, redundancy-
 
 ---
 
-## 💪 Skills Demonstrated
+##  Skills Demonstrated
 
 - Cisco IOS CLI mastery across Routers & L3 Switches  
 - End-to-end network design (logical + physical)  
@@ -76,7 +76,7 @@ VanniTech Telecom’s topology features **departmental segmentation, redundancy-
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 📌 Because true network engineers never stop improving:  
 
